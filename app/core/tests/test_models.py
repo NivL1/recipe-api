@@ -1,7 +1,7 @@
 """
 Tests for Modules
 """
-from django.test import  TestCase
+from django.test import TestCase
 from django.contrib.auth import get_user_model
 
 
@@ -19,4 +19,3 @@ class ModelTests(TestCase):
 
         self.assertEqual(user.email, email)
         self.assertTrue(user.check_password(password))
-
