@@ -19,3 +19,14 @@ class ModelTests(TestCase):
 
         self.assertEqual(user.email, email)
         self.assertTrue(user.check_password(password))
+
+    def test_new_user_email_formatting(self):
+        """Test format email at create user"""
+        emails = [
+            ['test1@EXAMPLE.com', 'test1@example.com'],
+            ['Test2@ExaMple.com', 'Test2@example.com'],
+            ['TEST3@examPLE.COM', 'TEST3@example.com'],
+        ]
+        for email, expected in emails:
+            user = get_user_model().objects.create_user(email, 'password')
+            self.assertEqual(user.email, expected)
