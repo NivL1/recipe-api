@@ -42,5 +42,5 @@ class ModelTests(TestCase):
             'password',
         )
 
-        self.assertTrue(user.is_supperuser)
+        self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)

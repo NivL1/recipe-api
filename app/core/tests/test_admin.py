@@ -6,6 +6,7 @@ from django.test import Client
 from django.contrib.auth import get_user_model
 from django.urls import reverse
 
+
 class AdminSitesTests(TestCase):
     """Tests for Django admin"""
 
@@ -30,4 +31,3 @@ class AdminSitesTests(TestCase):
 
         self.assertContains(res, self.user.name)
         self.assertContains(res, self.user.email)
-
