@@ -6,7 +6,7 @@ The application utilizes PostgreSQL as its database and is containerized using D
 ## Prerequisites
 To run the Recipe API, you'll need the following installed on your system:
 
-Docker
+Docker,
 Docker Compose
 
 ## To run the Recipe API, follow these steps:
