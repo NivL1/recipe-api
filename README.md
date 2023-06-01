@@ -18,7 +18,7 @@ git clone https://github.com/NivL1/recipe-api.git
 ```
 cd recipe-api
 ```
-3. Run
+3. Run:
 ```
 docker-compose up
 ```
