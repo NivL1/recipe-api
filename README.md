@@ -1,5 +1,5 @@
 # Recipe Api
-This is a backend application built with Django and Python that serves as an API for managing recipes. The application is still in progress and follows the Test-Driven Development (TDD) methodology. It supports managing users, adding recipes, and assigning tags. Future updates will include support for managing ingredients and images.
+This is a backend application built with Django and Python that serves as an API for managing recipes. The application is still in progress and follows the Test-Driven Development (TDD) methodology. It supports managing users, adding recipes, and assigning tags and ingredients. Future updates will include support for managing recipe images.
 
 The application utilizes PostgreSQL as its database and is containerized using Docker.
 
